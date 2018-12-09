@@ -118,7 +118,7 @@
   .main-middle-1 {
     background: url("http://pihkjsl6o.bkt.clouddn.com/main-middle-1.jpg") no-repeat center;
     background-size: cover;
-    min-height: 1700px;
+    /*min-height: 1700px;*/
 
     .middle1-wrapper {
       background: rgba(28, 28, 30, 0.7);

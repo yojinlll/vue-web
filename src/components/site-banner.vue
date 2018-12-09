@@ -73,7 +73,7 @@ export default {
     .banner{
       position: relative;
       height: 100vh;
-      min-height: 600px;
+      /*min-height: 600px;*/
       background: rgba(28,28,30,0.3);
       z-index: 2;
 
