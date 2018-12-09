@@ -53,16 +53,13 @@
     methods: {
       prevItem(){
         this.show = (this.show + 1)%4
-        console.log(this.show, 'prev')
       },
       nextItem(){
-        console.log('prev')
         if(this.show - 1 < 0){
           this.show = 4
           this.show = (this.show - 1)%4
         }else{
           this.show = (this.show - 1)%4
-          console.log(this.show, 'next')
         }
       }
     }
