@@ -18,6 +18,13 @@
 <script>
 export default {
   name: 'siteMainTop',
+  data(){
+    return {
+      styleLeft: {
+        backgroundImage: "url('http://pihkjsl6o.bkt.clouddn.com/top-pic-left-1.jpg')",
+      }
+    }
+  },
 }
 </script>
 
@@ -53,6 +60,8 @@ export default {
         position: absolute;
         top: 1.4rem;
         transition: all $delay;
+        z-index: 1;
+        opacity: 1;
 
         h5{letter-spacing: 2px; font-weight: 400; font-size: 0.12rem; color: #5d5d5d; margin-top: 10px}
         h2,h5{ transition: all $delay; }
@@ -65,9 +74,18 @@ export default {
       background: url("http://pihkjsl6o.bkt.clouddn.com/top-pic-left-1.jpg") no-repeat;
       background-size: cover;
 
+      &::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url("http://pihkjsl6o.bkt.clouddn.com/top-pic-left-2.jpg");
+        visibility: hidden;
+      }
+
       &:hover{
         transition: all $delay;
-        background: url("http://pihkjsl6o.bkt.clouddn.com/top-pic-left-2.jpg") no-repeat;
+        background: url("http://pihkjsl6o.bkt.clouddn.com/top-pic-left-2.jpg");
         background-size: cover;
 
         .top-content{ background: #E8E8E8; }
@@ -77,6 +95,15 @@ export default {
       margin-left: 10px;
       background: url("http://pihkjsl6o.bkt.clouddn.com/top-pic-right-1.jpg") no-repeat;
       background-size: cover;
+
+      &::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url("http://pihkjsl6o.bkt.clouddn.com/top-pic-right-2.jpg");
+        visibility: hidden;
+      }
 
       &:hover{
         transition: all $delay;

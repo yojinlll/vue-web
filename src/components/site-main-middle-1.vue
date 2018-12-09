@@ -327,11 +327,24 @@
   /* 轮播单项样式 */
   .slide-list {
     $delay: 0.5s;
+    @mixin hidden-pic{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+    }
+
 
     .item-1 {
       .item-pic {
         background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-1-1.jpg") no-repeat center;
         background-size: cover;
+
+        &::after{
+          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-1-2.jpg");
+          @include hidden-pic;
+        }
       }
 
       &:hover {
@@ -347,6 +360,11 @@
       .item-pic {
         background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-2-1.jpg") no-repeat center;
         background-size: cover;
+
+        &::after{
+          @include hidden-pic;
+          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-2-2.jpg");
+        }
       }
 
       &:hover {
@@ -362,6 +380,11 @@
       .item-pic {
         background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-3-1.jpg") no-repeat center;
         background-size: cover;
+
+        &::after{
+          @include hidden-pic;
+          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-3-2.jpg");
+        }
       }
 
       &:hover {
@@ -377,6 +400,11 @@
       .item-pic {
         background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-4-1.jpg") no-repeat center;
         background-size: cover;
+
+        &::after{
+          @include hidden-pic;
+          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-4-2.jpg");
+        }
       }
 
       &:hover {
@@ -392,6 +420,12 @@
       .item-pic {
         background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-5-1.jpg") no-repeat center;
         background-size: cover;
+
+
+        &::after{
+          @include hidden-pic;
+          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-5-2.jpg");
+        }
       }
 
       &:hover {
