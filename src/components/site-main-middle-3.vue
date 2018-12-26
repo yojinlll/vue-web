@@ -36,7 +36,7 @@
 
       .middle3-banner {
         height: 65%;
-        background: url("http://pihkjsl6o.bkt.clouddn.com/middle3-banner.jpg") no-repeat center;
+        background: url("../assets/img/middle3-banner.jpg") no-repeat center;
         background-size: cover;
       }
       .middle3-instagram-wrapper {
@@ -56,7 +56,7 @@
           padding: 0.15rem;
 
           .instagram-left-part {
-            background: url("http://pihkjsl6o.bkt.clouddn.com/instagram-left-part.jpg") no-repeat center;
+            background: url("../assets/img/instagram-left-part.jpg") no-repeat center;
             background-size: cover;
             width: calc(50% - 0.15rem / 2);
             position: relative;
@@ -98,25 +98,25 @@
             }
             .instagram-right-1 {
               @extend .instagram-left-part;
-              background: url("http://pihkjsl6o.bkt.clouddn.com/instagram-right-part-1.jpg") no-repeat center;
+              background: url("../assets/img/instagram-right-part-1.jpg") no-repeat center;
               background-size: cover;
               &:before { background-color: rgba(255, 255, 255, 0);}
             }
             .instagram-right-2 {
               @extend .instagram-left-part;
-              background: url("http://pihkjsl6o.bkt.clouddn.com/instagram-right-part-2.jpg") no-repeat center;
+              background: url("../assets/img/instagram-right-part-2.jpg") no-repeat center;
               background-size: cover;
               &:before { background-color: rgba(255, 255, 255, 0);}
             }
             .instagram-right-3 {
               @extend .instagram-left-part;
-              background: url("http://pihkjsl6o.bkt.clouddn.com/instagram-right-part-3.jpg") no-repeat center;
+              background: url("../assets/img/instagram-right-part-3.jpg") no-repeat center;
               background-size: cover;
               &:before { background-color: rgba(255, 255, 255, 0);}
             }
             .instagram-right-4 {
               @extend .instagram-left-part;
-              background: url("http://pihkjsl6o.bkt.clouddn.com/instagram-right-part-4.jpg") no-repeat center;
+              background: url("../assets/img/instagram-right-part-4.jpg") no-repeat center;
               background-size: cover;
               &:before { background-color: rgba(255, 255, 255, 0);}
             }

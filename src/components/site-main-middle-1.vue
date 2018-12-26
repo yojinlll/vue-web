@@ -1,5 +1,5 @@
 <template>
-  <div class="main-middle-1">
+  <div class="main-middle-1" >
     <div class="middle1-wrapper">
       <div class="middle1-text">
         <h2>TELL A BETTER STORY</h2>
@@ -116,7 +116,7 @@
   $delay: 0.5s;
 
   .main-middle-1 {
-    background: url("http://pihkjsl6o.bkt.clouddn.com/main-middle-1.jpg") no-repeat center;
+    background: url("../assets/img/main-middle-1.jpg") no-repeat center;
     background-size: cover;
     /*min-height: 1700px;*/
 
@@ -338,11 +338,11 @@
 
     .item-1 {
       .item-pic {
-        background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-1-1.jpg") no-repeat center;
+        background: url("../assets/img/slideItem-1-1.jpg") no-repeat center;
         background-size: cover;
 
         &::after{
-          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-1-2.jpg");
+          background: url("../assets/img/slideItem-1-2.jpg");
           @include hidden-pic;
         }
       }
@@ -350,7 +350,7 @@
       &:hover {
         .item-pic {
           transition: all $delay;
-          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-1-2.jpg") no-repeat center;
+          background: url("../assets/img/slideItem-1-2.jpg") no-repeat center;
           background-size: cover;
         }
       }
@@ -358,19 +358,19 @@
     .item-2 {
 
       .item-pic {
-        background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-2-1.jpg") no-repeat center;
+        background: url("../assets/img/slideItem-2-1.jpg") no-repeat center;
         background-size: cover;
 
         &::after{
           @include hidden-pic;
-          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-2-2.jpg");
+          background: url("../assets/img/slideItem-2-2.jpg");
         }
       }
 
       &:hover {
         .item-pic {
           transition: all $delay;
-          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-2-2.jpg") no-repeat center;
+          background: url("../assets/img/slideItem-2-2.jpg") no-repeat center;
           background-size: cover;
         }
       }
@@ -378,19 +378,19 @@
     .item-3 {
 
       .item-pic {
-        background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-3-1.jpg") no-repeat center;
+        background: url("../assets/img/slideItem-3-1.jpg") no-repeat center;
         background-size: cover;
 
         &::after{
           @include hidden-pic;
-          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-3-2.jpg");
+          background: url("../assets/img/slideItem-3-2.jpg");
         }
       }
 
       &:hover {
         .item-pic {
           transition: all $delay;
-          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-3-2.jpg") no-repeat center;
+          background: url("../assets/img/slideItem-3-2.jpg") no-repeat center;
           background-size: cover;
         }
       }
@@ -398,19 +398,19 @@
     .item-4 {
 
       .item-pic {
-        background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-4-1.jpg") no-repeat center;
+        background: url("../assets/img/slideItem-4-1.jpg") no-repeat center;
         background-size: cover;
 
         &::after{
           @include hidden-pic;
-          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-4-2.jpg");
+          background: url("../assets/img/slideItem-4-2.jpg");
         }
       }
 
       &:hover {
         .item-pic {
           transition: all $delay;
-          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-4-2.jpg") no-repeat center;
+          background: url("../assets/img/slideItem-4-2.jpg") no-repeat center;
           background-size: cover;
         }
       }
@@ -418,20 +418,20 @@
     .item-5 {
 
       .item-pic {
-        background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-5-1.jpg") no-repeat center;
+        background: url("../assets/img/slideItem-5-1.jpg") no-repeat center;
         background-size: cover;
 
 
         &::after{
           @include hidden-pic;
-          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-5-2.jpg");
+          background: url("../assets/img/slideItem-5-2.jpg");
         }
       }
 
       &:hover {
         .item-pic {
           transition: all $delay;
-          background: url("http://pihkjsl6o.bkt.clouddn.com/slideItem-5-2.jpg") no-repeat center;
+          background: url("../assets/img/slideItem-5-2.jpg") no-repeat center;
           background-size: cover;
         }
       }

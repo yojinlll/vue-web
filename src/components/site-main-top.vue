@@ -71,7 +71,7 @@ export default {
 
     .top-pic-left{
       margin-right: 10px;
-      background: url("http://pihkjsl6o.bkt.clouddn.com/top-pic-left-1.jpg") no-repeat;
+      background: url("../assets/img/top-pic-left-1.jpg") no-repeat;
       background-size: cover;
 
       &::after{
@@ -79,13 +79,13 @@ export default {
         display: block;
         width: 100%;
         height: 100%;
-        background: url("http://pihkjsl6o.bkt.clouddn.com/top-pic-left-2.jpg");
+        background: url("../assets/img/top-pic-left-2.jpg");
         visibility: hidden;
       }
 
       &:hover{
         transition: all $delay;
-        background: url("http://pihkjsl6o.bkt.clouddn.com/top-pic-left-2.jpg");
+        background: url("../assets/img/top-pic-left-2.jpg");
         background-size: cover;
 
         .top-content{ background: #E8E8E8; }
@@ -93,7 +93,7 @@ export default {
     }
     .top-pic-right{
       margin-left: 10px;
-      background: url("http://pihkjsl6o.bkt.clouddn.com/top-pic-right-1.jpg") no-repeat;
+      background: url("../assets/img/top-pic-right-1.jpg") no-repeat;
       background-size: cover;
 
       &::after{
@@ -101,13 +101,13 @@ export default {
         display: block;
         width: 100%;
         height: 100%;
-        background: url("http://pihkjsl6o.bkt.clouddn.com/top-pic-right-2.jpg");
+        background: url("../assets/img/top-pic-right-2.jpg");
         visibility: hidden;
       }
 
       &:hover{
         transition: all $delay;
-        background: url("http://pihkjsl6o.bkt.clouddn.com/top-pic-right-2.jpg") no-repeat;
+        background: url("../assets/img/top-pic-right-2.jpg") no-repeat;
         background-size: cover;
         .top-content{ background: #E8E8E8; }
       }

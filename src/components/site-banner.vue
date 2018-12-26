@@ -57,7 +57,7 @@ export default {
 
   .banner-wrapper{
     min-height: 100vh;
-    background: url("http://pihkjsl6o.bkt.clouddn.com/banner-video-still.jpg")  no-repeat center;
+    background: url("../assets/img/banner-video-still.jpg")  no-repeat center;
     background-size: cover;
 
     video{
